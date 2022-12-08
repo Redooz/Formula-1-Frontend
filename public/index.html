@@ -93,18 +93,16 @@
                     <th>Fecha</th>
                     <th>Ganador</th>
                     <th>Equipo</th>
-                    <th>Cantidad Vueltas</th>
+                    <th>Vueltas</th>
                     <th>Tiempo</th>
+                    <th></th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
             </tbody>
           </table>
     </div>
-
-
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_carrera" data-bs-whatever="@fat">Open modal for @fat</button>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_carrera" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
     
     <div class="modal fade" id="modal_carrera" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -137,11 +135,11 @@
               </div>
               <div class="mb-3">
                 <label for="tiempo" class="col-form-label">Tiempo:</label>
-                <input type="number" class="form-control" id="tiempo">
+                <input type="text" class="form-control" id="tiempo">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
-                <button type="button" class="btn btn-primary">Registrar</button>
+                <button type="submit" class="btn btn-primary">Registrar</button>
               </div>
             </form>
           </div>
